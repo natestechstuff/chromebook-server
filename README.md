@@ -10,7 +10,7 @@ Yeah it's sitting on a bucket in the garage. It works.
 
 ## The setup
 
-- **The hardware:** an old Acer Chromebook. I wiped ChromeOS and put Linux on it (Ubuntu-based).
+- **The hardware:** an old Acer Chromebook running Linux (Ubuntu-based) instead of ChromeOS.
 - **Web server:** nginx serves the site straight off the Chromebook.
 - **Getting it online:** a Cloudflare Tunnel (`cloudflared`). The Chromebook connects out to Cloudflare, so there's no port forwarding and my home IP never gets exposed.
 - **Remote access:** Tailscale + SSH, so I can get into it from anywhere without opening anything on the router.
